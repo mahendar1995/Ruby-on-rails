@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      ruby: 2.7.2
+      nodejs: 12
+    commands:
+      - rbenv install 2.7.2
+      - rbenv global 2.7.2
+      - gem install bundler
+      - bundle install
+
+artifacts:
+  files:
+    - '**/*'
+  name: hello-world-build
