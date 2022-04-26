@@ -39,6 +39,8 @@ ruby -v
 # This installs the latest Bundler, currently 2.x.
 gem install bundler
 bundle -v
+# install rails
+gem install rails -v <version>
 
 sudo apt update && sudo apt -y upgrade && sudo apt-get autoclean && sudo apt-get -y autoremove
 

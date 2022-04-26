@@ -1,4 +1,4 @@
-cd /var/www/apps/hello-world
+# cd /var/www/apps/hello-world
 
 
  # Pull the environment variables stored in parameter store and write it to a .env file
@@ -11,4 +11,4 @@ cd /var/www/apps/hello-world
 
 # Starting the server...
 
-bash -lc "bundle exec rails server -d -p 80 -b 0.0.0.0"
+bash -lc "bundle exec rails server -b 0.0.0.0"
