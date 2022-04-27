@@ -1,6 +1,6 @@
 # cd /var/www/apps/hello-world
-DIR="sample-rails"
-cd DIR
+
+cd /var/www/ruby/
  # Pull the environment variables stored in parameter store and write it to a .env file
 
 # aws ssm get-parameters-by-path --region us-west-2 --path /hello-world/production/ --with-decryption \
