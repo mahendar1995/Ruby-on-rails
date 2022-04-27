@@ -3,5 +3,5 @@ cd /var/www/
 git clone https://github.com/JD4912/ruby_test.git
 # git clone $REPO ~/$DIR
 # cd $DIR
-rm Gemfile.lock
+rm -rf Gemfile.lock
 bundle install
