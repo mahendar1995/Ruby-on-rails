@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/ruby
+    destination: /home/ubuntu/ruby
 hooks:
   BeforeInstall:
     - location: scripts/beforeInstall.sh
