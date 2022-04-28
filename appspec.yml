@@ -7,10 +7,10 @@ file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: scripts/beforeInstall.sh
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/applicationStart.sh
-      runas: root
+      runas: ubuntu
 #   ApplicationStop:
 #     - location: scripts/applicationStop.sh
 #       runas: root
