@@ -10,5 +10,5 @@ cd /home/ubuntu/ruby/
 #   value=$(echo $i | jq '.Value'| sed -e 's/^"//' -e 's/"$//'); echo $key=$value >> .env; done
 
 # Starting the server...
-
+bash -lc "bundle install"
 bash -lc "bundle exec rails server -b 0.0.0.0"
