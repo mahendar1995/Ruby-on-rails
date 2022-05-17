@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  123
+  default
 
 steps:
 - task: UseRubyVersion@0
